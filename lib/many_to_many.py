@@ -34,7 +34,7 @@ class Book:
         return [contract for contract in Contract.all if contract.book == self]
     
     def authors(self):
-        "
+        
         return [contract.author for contract in self.contracts()]
 
 
